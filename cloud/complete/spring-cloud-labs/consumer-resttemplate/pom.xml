@@ -39,5 +39,15 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-ribbon</artifactId>
         </dependency>
+ 		<dependency>
+      		<groupId>io.pivotal.spring.cloud</groupId>
+      		<artifactId>spring-cloud-services-starter-config-client</artifactId>
+    		<version>1.0.0.BUILD-SNAPSHOT</version>
+    	</dependency>        
+		<dependency>
+			<groupId>io.pivotal.spring.cloud</groupId>
+			<artifactId>spring-cloud-services-starter-service-registry</artifactId>
+			<version>1.0.0.BUILD-SNAPSHOT</version>
+		</dependency>
     </dependencies>
 </project>

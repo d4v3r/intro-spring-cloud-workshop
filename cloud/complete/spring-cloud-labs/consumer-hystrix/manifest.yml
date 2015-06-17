@@ -1,0 +1,11 @@
+applications:
+- name: consumer
+  memory: 1024M
+  path: target/consumer-hystrix-0.0.1-SNAPSHOT.jar
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+  services:
+  - config-server
+  - service-registry
+  - circuit-breaker
+
