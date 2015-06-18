@@ -23,11 +23,11 @@
 	</modules>
 
 	<parent>
-		<groupId>org.springframework.cloud</groupId>
-		<artifactId>spring-cloud-starter-parent</artifactId>
-
- 		<version>1.0.2.RELEASE</version>
- 		<relativePath />		<!-- lookup parent from repository -->
+		<groupId>io.pivotal.spring.cloud</groupId>
+		<artifactId>spring-cloud-services-starter-parent</artifactId>
+		<version>1.0.0.BUILD-SNAPSHOT</version>
+		<relativePath />
+		<!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -61,30 +61,13 @@
 	</build>
 
 	<repositories>
- <!-- 		<repository>
-			<id>spring-snapshots</id>
-			<name>Spring Snapshots</name>
-			<url>https://repo.spring.io/snapshot/</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-
 		<repository>
 			<id>spring-release</id>
 			<name>Spring Release</name>
-			<url>https://repo.spring.io/release/</url>
+			<url>https://repo.spring.io/libs-snapshot/</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
- --> 		
-  		<repository>
-			<id>spring-snapshots2</id>
-			<url>https://repo.spring.io/libs-snapshot</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-  	</repositories>
+	</repositories>
 </project>
